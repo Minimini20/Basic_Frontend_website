@@ -1,0 +1,29 @@
+.text{
+    color: white;
+    margin-top: 20% ; 
+    text-align:center ; 
+    font-size:75px ; 
+    letter-spacing: -0.05em ; 
+    line-height: 1.2em ; 
+    font-family: 'Varela Round', sans-serif;
+}
+body {
+    background: url(https://image.shutterstock.com/image-photo/watch-man-260nw-462355030.jpg) no-repeat center center fixed ; 
+    background-size: cover;
+}
+.ima {
+    height:300px;
+    width: 200px; 
+}
+.video {
+    margin-left : 25% ;
+}
+@media screen (max-width:680px)
+{
+.video iframe {
+     margin-left :0px; 
+    position: relative ;
+    width : 100%; 
+    overflow :hidden ; 
+        }
+}
